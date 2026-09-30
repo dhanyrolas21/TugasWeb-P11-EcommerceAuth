@@ -12,16 +12,17 @@ php artisan migrate:fresh --seed
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 
-03-admin-dashboard
+03-Customer-dashboard
 ![alt text](image-3.png)
 
-04-user-dashboard
+04-admin-dashboard
 ![alt text](image-4.png)
 
-05-incognito-403-forbidden
+05-editor-dashboard
 ![alt text](image-5.png)
 
-
+06-incognito-403-forbidden
+![alt text](image-6.png)
 
 
 ## 📊 Matriks Pemenuhan Requirement Tugas
@@ -76,11 +77,21 @@ Jika pengguna mencoba mengakses alamat /admin/dashboard, akses juga akan ditolak
 
 ---
 
-Role	Email	            Password	    Hak Akses (Berdasarkan Policy & Middleware)
-Admin	admin@gmail.com	    password	    Akses ke /admin/dashboard, bisa Edit & Delete semua produk.
-Editor	editor@gmail.com	password	    Ditolak dari halaman Admin. Hanya diizinkan Edit produk.
-User	user@gmail.com	    password	    Ditolak dari halaman Admin (403 Forbidden).
+| Role / Peran | Akun Login | Fitur & Hak Akses |
+| :--- | :--- | :--- |
+| **Admin** | `admin@gmail.com` | **Full Access**: Melihat katalog, menambah barang baru (`+ Tambah Barang`), mengedit detail barang, dan menghapus barang dari database. |
 
+| **Editor** | `editor@gmail.com` | **Update Access**: Melihat katalog dan mengedit informasi/stok/harga barang (`Edit Produk`). Dilarang menambah atau menghapus barang. |
+
+| **User / Customer** | `user@gmail.com` | **Read-Only Access**: Hanya dapat melihat daftar produk, deskripsi, harga, dan ketersediaan stok tanpa tombol aksi pengeditan. |
+
+## 🎨 Design System & UI/UX
+
+- **Theme**: NVIDIA GeForce Dark Mode (Hitam Elegan `#121212` dengan Aksen Hijau NVIDIA `#76b900`).
+- **Framework**: Bootstrap 5 + Tailwind CSS (Breeze Layout) + Bootstrap Icons.
+- **Form Management**: Interactive Bootstrap Modals untuk Tambah & Edit Produk tanpa reload halaman penuh.
+
+---
 
 ## 📁 Struktur Direktori Proyek
 
