@@ -4,25 +4,26 @@ Repositori ini berisi implementasi **Tugas Rutin 11 Pemrograman Web** untuk pemb
 
 ---
 
-01-migration-seeder
-![alt text](image.png)
-php artisan migrate:fresh --seed
+### 📷 Dokumentasi Pengujian System
 
-02-tinker-queries
-![alt text](image-1.png)
-![alt text](image-2.png)
+#### 01. Migration & Seeder Database
+![01-migration-seeder](docs/image.png)
 
-03-Customer-dashboard
-![alt text](image-3.png)
+#### 02. Testing Queries Via Tinker
+![02-tinker-queries](docs/image-1.png)
+![02-tinker-queries-2](docs/image-2.png)
 
-04-admin-dashboard
-![alt text](image-4.png)
+#### 03. Dashboard Customer / User (Read-Only)
+![03-Customer-dashboard](docs/image-3.png)
 
-05-editor-dashboard
-![alt text](image-5.png)
+#### 04. Dashboard Admin (Full Access: Tambah, Edit, Hapus)
+![04-admin-dashboard](docs/image-4.png)
 
-06-incognito-403-forbidden
-![alt text](image-6.png)
+#### 05. Dashboard Editor (Update Access Only)
+![05-editor-dashboard](docs/image-5.png)
+
+#### 06. Security Access Control (403 Forbidden Access)
+![06-incognito-403-forbidden](docs/image-6.png)
 
 
 ## 📊 Matriks Pemenuhan Requirement Tugas
