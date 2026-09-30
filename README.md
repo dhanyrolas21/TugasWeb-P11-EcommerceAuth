@@ -80,11 +80,8 @@ Jika pengguna mencoba mengakses alamat /admin/dashboard, akses juga akan ditolak
 | Role / Peran | Akun Login | Fitur & Hak Akses |
 | :--- | :--- | :--- |
 | **Admin** | `admin@gmail.com` | **Full Access**: Melihat katalog, menambah barang baru (`+ Tambah Barang`), mengedit detail barang, dan menghapus barang dari database. |
-
 | **Editor** | `editor@gmail.com` | **Update Access**: Melihat katalog dan mengedit informasi/stok/harga barang (`Edit Produk`). Dilarang menambah atau menghapus barang. |
-
 | **User / Customer** | `user@gmail.com` | **Read-Only Access**: Hanya dapat melihat daftar produk, deskripsi, harga, dan ketersediaan stok tanpa tombol aksi pengeditan. |
-
 ## 🎨 Design System & UI/UX
 
 - **Theme**: NVIDIA GeForce Dark Mode (Hitam Elegan `#121212` dengan Aksen Hijau NVIDIA `#76b900`).
